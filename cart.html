@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>Logo</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="">Cart</a></li>
+        </ul>
+    </nav>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <p><strong>Success!</strong> <span class="checkout-msg">Your Total is $3000.00. Thank you for shopping with us</span></p>
+    </div>
+
+    <div class="no-items">
+        <div class="no-items-container">
+            <p>Add items to cart</p>
+            <a href="index.html"><img src="images/shopping-cart.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr class="heading">
+                    <th class="product">Product</th>
+                    <th class="description"></th>
+                    <th class="Quantity">Quantity</th>
+                    <th class="price">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!-- <tr class="pro" id="pro-card">
+                    <td data-cell="Product" class="images">
+                        <img src="" alt="product image">
+                    </td>
+                    <td class="details" data-cell="Details">
+                        <p id="item-detail">$0.00</p>
+                        <p id="item-price">$0.00</p>
+                        <p><button class="Del">Remove product</button></p>
+                    </td>
+                    <td data-cell="No. of items" class="input">
+                        <input type="number" value="0" min="0" id="quantity">
+                    </td>
+                    <td data-cell="sub-total" class="price item">$0.00</td>
+                </tr> -->
+                
+            </tbody>
+            <tfoot>
+                <tr class="total-value" >
+                    <td class="ignore"></td>
+                    <td class="ignore"></td>
+                    <td class="Quantity total">Total</td>
+                    <td id="sub-total" class="price total">$0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+        <button class="chk-out">CheckOut</button>
+    </div> 
+    <script src="javascript/checkout.js"></script>
+</body>
+</html>

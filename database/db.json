@@ -1,0 +1,18 @@
+{
+    "customers":[
+        {
+            "id":1,
+            "price":45.00,
+            "details":"Red Printed t-shirt",
+            "product_img":"../images/product-1.jpg",
+            "quantity":1
+        },
+        {
+            "id":2,
+            "price":35.00,
+            "details":"HRX Sports Shoes",
+            "product_img":"../images/product-2.jpg",
+            "quantity":2
+        }
+    ]
+}
