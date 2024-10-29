@@ -311,11 +311,10 @@ tfoot .ignore{
 }
 .total{
     border-top: 2px solid orangered;
+    font-weight: 900;
+    font-size: large;
 }
-tfoot{
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 700;
-}
+
 tfoot td{
     padding: .4rem;
 }
@@ -361,7 +360,6 @@ tfoot td{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
     flex-wrap: wrap;
     overflow: auto;
 }
@@ -373,14 +371,14 @@ tfoot td{
     display: flex;
     margin: auto;
 }
-.no-items-container a{
+.no-items-container {
     width: 90%;
 }
-.no-items-container a img{
+.no-items-container img{
     width: 200px;
     margin-left: 5rem;
 }
-.no-items-container a:hover{
+.no-items-container img:hover{
    box-shadow: 14px 14px 6px #e7e7e7, -10px -10px 6px #e7e7e7;
 }
 .no-items-container p{

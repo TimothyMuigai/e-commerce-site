@@ -58,7 +58,67 @@
         </div>
     </div>
 
-    <div class="latest-products">
+    <h2>Cart</h2>
+      <hr></hr>
+
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <p><strong>Success!</strong> <span class="checkout-msg">Your Total is $3000.00. Thank you for shopping with us</span></p>
+    </div>
+
+    <div class="no-items">
+        <div class="no-items-container">
+            <p>Add items to cart</p>
+            <img src="images/shopping-cart.svg" alt="">
+        </div>
+    </div>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr class="heading">
+                    <th class="product">Product</th>
+                    <th class="description"></th>
+                    <th class="Quantity">Quantity</th>
+                    <th class="price">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!-- <tr class="pro" id="pro-card">
+                    <td data-cell="Product" class="images">
+                        <img src="" alt="product image">
+                    </td>
+                    <td class="details" data-cell="Details">
+                        <p id="item-detail">$0.00</p>
+                        <p id="item-price">$0.00</p>
+                        <p><button class="Del" onclick="">Remove product</button></p>
+                    </td>
+                    <td data-cell="No. of items" class="input">
+                        <input type="number" value="0" min="0" id="quantity">
+                    </td>
+                    <td data-cell="sub-total" class="price item">$0.00</td>
+                </tr> -->
+                
+            </tbody>
+            <tfoot>
+                <tr class="total-value" >
+                    <td class="ignore"></td>
+                    <td class="ignore"></td>
+                    <td class="Quantity total">Total</td>
+                    <td id="sub-total" class="price total">$0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+        <button class="chk-out">CheckOut</button>
+    </div>
+    <script src="javascript/app.js"></script>
+</body>
+</html>
+
+
+
+    <!-- <div class="latest-products">
         <h2>Latest Products</h2>
         <hr></hr>
         <div class="lt-cards">
@@ -168,8 +228,4 @@
         <div class="co-imgs">
             <img src="images/logo-paypal.png" alt="">
         </div>
-    </div>
-
-    <script src="javascript/app.js"></script>
-</body>
-</html>
+    </div> -->
