@@ -171,6 +171,16 @@ h2{
     background-color: rgb(249, 222, 186);
     padding: .7em;
 }
+.addCart{
+    margin: .7rem 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(249, 222, 186);
+    padding: .7em;
+}
+.addCart:hover{
+    background-color: orangered;
+}
 section {
     display: grid;
     grid-auto-flow: column;
@@ -256,6 +266,10 @@ table{
 .price{
     padding-inline: 2rem;
 }
+.item{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
 .input{
     padding-inline: .5rem;   
 }
@@ -264,9 +278,15 @@ td input{
     max-width:fit-content;
     align-self: center;
 }
+tbody tr{
+    border-bottom: 2px solid rgb(10, 220, 10);    
+}
+tbody tr:nth-last-child(1){
+    border-bottom: none;
+}
 .images{
     width: 20%;
-    min-height:100%;    
+    min-height:100%;
 }
 .images img{
     width: 250px;
