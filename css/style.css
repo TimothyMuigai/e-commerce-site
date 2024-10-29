@@ -47,8 +47,11 @@ header .header-details{
     margin: .7rem 0;
     border-radius: 10px;
     border: none;
-    background-color: rgb(249, 222, 186);
+    background-color: orangered;
     padding: .7em;
+}
+.header-details button:hover{
+    background-color: rgba(255, 68, 0, 0.637);
 }
 .category{
     display: flex;    
@@ -164,22 +167,16 @@ h2{
     margin-right: 8rem;
     margin-top: 5em;
 }
-.ex-details button{
-    margin: .7rem 0;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(249, 222, 186);
-    padding: .7em;
-}
+
 .addCart{
     margin: .7rem 0;
     border-radius: 10px;
     border: none;
-    background-color: rgb(249, 222, 186);
+    background-color: orangered;
     padding: .7em;
 }
 .addCart:hover{
-    background-color: orangered;
+    background-color: rgba(255, 68, 0, 0.637);
 }
 section {
     display: grid;
