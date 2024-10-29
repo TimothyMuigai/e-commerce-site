@@ -57,6 +57,10 @@ function addToCart(productId) {
         })
         .catch(error => console.error('Error fetching product details: ' + error));
 }
+function removeProduct(productId){
+    cart =cart.filter(item => item.id !== productId);
+    displayCartItems();
+}
 
 const table = document.querySelector('tbody');
 const tableContent = document.querySelector('.table');
@@ -92,7 +96,7 @@ function displayCartItems(){
                 <p><button class="Del" onclick="removeProduct(${customerData.id})">Remove product</button></p>
             </td>
             <td data-cell="No. of items" class="input">
-                <input type="number" value="${customerData.quantity}" min="0" id="quantity">
+                <input type="number" value="${customerData.quantity}" min="1" class="quantities">
             </td>
             <td data-cell="sub-total" class="price item">$${customerData.price} x ${customerData.quantity} Items</td>
         `;
